@@ -1,9 +1,20 @@
 
 public class Ex1_Conta {
+    
+    private static int quantContas = 0;
+    
 
     //ATRIBBUTOS
     private double saldo;
 
+    
+    public Ex1_Conta() {
+        quantContas++;
+    }
+    
+    public static int getquantContas() {
+        return quantContas;
+    }
     //METODO: saque
     //Parametro/Argumento: valor (informacao de entrada para o metodo)
     //Retorno(tipo): boolean (informacao de saida do metodo)
