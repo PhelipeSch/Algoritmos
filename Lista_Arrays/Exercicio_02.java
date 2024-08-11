@@ -8,13 +8,18 @@ public class Exercicio_02 {
         double [] terceiro = new double [10];
         
         for(int i =0; i<10; i++){
+            
             System.out.println("Digite um numero para o primeiro vetor:");
             double numero1 = leitor.nextDouble();
             primeiro[i] = numero1;
+            
             System.out.println("Digite um numero para o segundo vetor:");
             double numero2 = leitor.nextDouble();
             segundo[i] = numero2;
             
+            double multiplicacao = numero1*numero2;
+            System.out.println("A multiplicacao dos valores digitados eh igual a: " + multiplicacao);
+            System.out.println("");
         }
     }
 }
