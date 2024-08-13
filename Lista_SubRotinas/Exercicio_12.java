@@ -1,26 +1,35 @@
 public class Exercicio_12 {
     
-    public static String Escreve_Por_Extenso_1_a_99(int valor){
-        String devolucao;
-        switch(valor){
-            case 1: devolucao = "UM";
-            break;
-            case 2: devolucao = "DOIS";
-            break;
-            case 3: devolucao = "TRES";
-            break;
-            case 4: devolucao = "QUATRO";
-            break;
-            case 5: devolucao = "CINCO";
-            break;
-            case 6: devolucao = "SEIS";
-            break;
-            case 7: devolucao = "SETE";
-            break;
-            case 8: devolucao = "OITO";
-            break;
-            case 9: devolucao = "NOVE";
-            break;
+    public static String Escreve_Por_Extenso_1_a_999(int valor){
+        String devolucao = ""+valor;
+        if(devolucao.length()== 1){
+            switch(valor){
+                case 0: devolucao = "ZERO";
+                break;
+                case 1: devolucao = "UM";
+                break;
+                case 2: devolucao = "DOIS";
+                break;
+                case 3: devolucao = "TRES";
+                break;
+                case 4: devolucao = "QUATRO";
+                break;
+                case 5: devolucao = "CINCO";
+                break;
+                case 6: devolucao = "SEIS";
+                break;
+                case 7: devolucao = "SETE";
+                break;
+                case 8: devolucao = "OITO";
+                break;
+                case 9: devolucao = "NOVE";
+                break;
+                default: devolucao ="Invalido";
+                break;
+            }
+        }
+        if(devolucao.length()==2){
+            switch(valor){
             case 10: devolucao = "DEZ";
             break;
             case 11: devolucao = "ONZE";
@@ -201,87 +210,19 @@ public class Exercicio_12 {
             break;
             case 99: devolucao = "NOVENTA E NOVE";
             break;
-            case 100: devolucao = "CEM";
-            break;
-            case 101: devolucao = "UM";
-            break;
-            case 102: devolucao = "DOIS";
-            break;
-            case 103: devolucao = "TRES";
-            break;
-            case 104: devolucao = "QUATRO";
-            break;
-            case 105: devolucao = "CINCO";
-            break;
-            case 106: devolucao = "SEIS";
-            break;
-            case 107: devolucao = "SETE";
-            break;
-            case 108: devolucao = "OITO";
-            break;
-            case 109: devolucao = "NOVE";
-            break;
-            case 110: devolucao = "DEZ";
-            break;
-            case 111: devolucao = "ONZE";
-            break;
-            case 112: devolucao = "DOZE";
-            break;
-            case 113: devolucao = "TREZE";
-            break;
-            case 114: devolucao = "QUATORZE";
-            break;
-            case 115: devolucao = "QUINZE";
-            break;
-            case 116: devolucao = "DEZESSEIS";
-            break;
-            case 117: devolucao = "DEZESSETE";
-            break;
-            case 118: devolucao = "DEZOITO";
-            break;
-            case 119: devolucao = "DEZENOVE";
-            break;
-            case 120: devolucao = "VINTE";
-            break;
-            case 121: devolucao = "VINTE E UM";
-            break;
-            case 122: devolucao = " VINTE E DOIS";
-            break;
-            case 123: devolucao = "VINTE E TRES";
-            break;
-            case 124: devolucao = "VINTE E QUATRO";
-            break;
-            case 125: devolucao = "VINTE E CINCO";
-            break;
-            case 126: devolucao = "VINTE E SEIS";
-            break;
-            case 127: devolucao = "VINTE E SETE";
-            break;
-            case 128: devolucao = "VINTE E OITO";
-            break;
-            case 129: devolucao = "VINTE E NOVE";
-            break;
-            case 130: devolucao = "TRINTA";
-            break;
-            case 131: devolucao = "TRINTA E UM";
-            break;
-            case 132: devolucao = "TRINTA E DOIS";
-            break;
-            case 133: devolucao = "TRINTA E TRES";
-            break;
-            case 134: devolucao = "TRINTA E QUATRO";
-            break;
-            case 135: devolucao = "TRINTA E CINCO";
-            break;
-            case 136: devolucao = "TRINTA E SEIS";
-            break;
             default: devolucao = "Invalido";
             break; 
+            }
+        }
+        if(devolucao.length()==3){
+            if(devolucao.charAt(0)== 1){
+                
+            }
         }
         return devolucao;
     }
     public static void main(String[] args) {
-        
+        System.out.println(Escreve_Por_Extenso_1_a_999(99));
     } 
 }
 /*

@@ -2,6 +2,8 @@ public class Exercicio_10 {
     public static String Escreve_Por_Extenso(int valor){
         String devolucao;
         switch(valor){
+            case 0: devolucao = "ZERO";
+            break;
             case 1: devolucao = "UM";
             break;
             case 2: devolucao = "DOIS";
