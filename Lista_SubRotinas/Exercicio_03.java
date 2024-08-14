@@ -3,13 +3,13 @@ public class Exercicio_03 {
     private static Scanner leitor = new Scanner (System.in);
     
     public static void Leitor_Menor_e_Maior(){
-        double vetor[] = new double [5];
+        double vetor[] = new double [50];
         double maximo, minimo, Atual;
         
         System.out.println("Digite um valor real: ");
         maximo = minimo = leitor.nextInt();
         
-        for(int i =1; i<5; i++){
+        for(int i =1; i<50; i++){
             System.out.println("Digite um valor real: ");
             Atual = leitor.nextDouble();
             vetor[i]=Atual;
