@@ -4,21 +4,20 @@ public class Exercicio_03 {
     
     public static void Leitor_Menor_e_Maior(){
         double vetor[] = new double [50];
-        double maximo, minimo, Atual;
+        double maximo, minimo, atual;
         
         System.out.println("Digite um valor real: ");
         maximo = minimo = leitor.nextInt();
         
         for(int i =1; i<50; i++){
             System.out.println("Digite um valor real: ");
-            Atual = leitor.nextDouble();
-            vetor[i]=Atual;
-            if( Atual > maximo ) {
-                maximo = Atual;
+            atual = leitor.nextDouble();
+            vetor[i]=atual;
+            if( atual > maximo ) {
+                maximo = atual;
             } else {
-                
-                if( Atual < minimo ) {
-                    minimo = Atual;
+                if( atual < minimo ) {
+                    minimo = atual;
                 }
             }
         }
