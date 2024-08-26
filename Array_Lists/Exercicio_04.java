@@ -5,7 +5,7 @@ public class Exercicio_04 {
         Scanner leitor = new Scanner (System.in);
         
         ArrayList<Integer> valores = new ArrayList();
-        ArrayList<Integer> IntImpares = new ArrayList();
+        ArrayList<Integer> Impares = new ArrayList();
         int valor;
         
         for(int i =0; i < 15; i++){
@@ -13,17 +13,14 @@ public class Exercicio_04 {
             valor = leitor.nextInt();
             valores.add(valor);
         }        
-        for(int i =0; i < 15; i++){
+        for(int i =0; i < valores.size(); i++){
             int ingual = valores.get(i);
-            int resto = ingual % 2;
-            
-            if( resto == 1){
-                IntImpares.add(ingual);
-                
+            if( ingual %2 != 0){
+                Impares.add(ingual);
+                valores.remove(i);
             }
         }
-        System.out.println(valores);
-        System.out.println(IntImpares);
+        System.out.println("Os valores inseridos na segunda lista são: "+Impares);
     }
 }
 /*

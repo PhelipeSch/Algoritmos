@@ -8,18 +8,16 @@ public class Exercicio_03 {
         ArrayList<Integer> IntImpares = new ArrayList();
         int valor;
         
-        for(int i =0; i < 10; i++){
+        for(int i =0; i < 25; i++){
             System.out.print("Digite um valor para inserirmos na lista: ");
             valor = leitor.nextInt();
             valores.add(valor);
         }        
-        for(int i =0; i < 10; i++){
+        for(int i =0; i < valores.size(); i++){
             int ingual = valores.get(i);
-            int resto = ingual % 2;
-            
-            if( resto == 1){
+            if( ingual %2 != 0){
                 IntImpares.add(ingual);
-                
+                valores.remove(i);
             }
         }
         System.out.println(valores);
