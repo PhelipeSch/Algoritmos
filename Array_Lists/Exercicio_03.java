@@ -20,8 +20,6 @@ public class Exercicio_03 {
                 valores.remove(i);
             }
         }
-        System.out.println(valores);
-        System.out.println(IntImpares);
     }
 }
 /*
