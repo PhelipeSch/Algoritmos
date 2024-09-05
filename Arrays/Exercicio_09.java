@@ -4,18 +4,18 @@ public class Exercicio_09 {
     static ArrayList <Integer> lista = new ArrayList();
     public static void main(String[] args) {
         
-        for(int i=0; i<1_000_000; i++){
-            int comp;
+        for(int i=0; i<10_000_000; i++){
             lista.add((int) Math.rint(Math.random() *1_000_000));
+        }
+        
+        for(int i = 0;i<100; i++){
+            int comp;
+            
             int numero = (int) Math.rint(Math.random() * 1_000_000);
-            int elemento = lista.get(i);
             
-            for(comp = 0; comp <lista.size() && numero != lista.get(comp); comp++){
+            for(comp = 0; comp < lista.size() && numero != lista.get(comp); comp++){
             }
-            
-                System.out.println(comp);
-            
+            System.out.println("Comparacoes: "+ comp);
         }
     }
 }
-

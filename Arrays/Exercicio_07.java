@@ -8,7 +8,7 @@ public class Exercicio_07 {
             vetor[i] = (int) Math.rint(Math.random() *1_000_000);
         }
         // Busca Linear
-        //Nesse teste, vamos grerar numeros açeatorios e pesquisar no vetor
+        //Nesse teste, vamos grerar numeros aleatorios e pesquisar no vetor
         //Serão realizadas 100 buscas, medido o tempo de cada uma e a quantidade
         // de comparacoes realizadas
         
@@ -20,8 +20,7 @@ public class Exercicio_07 {
             for(comp = 0; comp <vetor.length && numero != vetor[comp]; comp++){
             }
             long fim = System.currentTimeMillis();
-            System.out.println("Comparacoes: "+ comp);
-            System.out.println(fim-inicio);
+            System.out.println("Comparacoes: "+ comp +" e o tempo foi de "+(fim-inicio)+" ms");
         }
     }
 }

@@ -1,7 +1,4 @@
-
 import java.util.Arrays;
-
-
 public class Exercicio_08 {
     static final int TAMANHO = 10_000_000;
     static int[] vetor = new int [TAMANHO];
@@ -12,7 +9,7 @@ public class Exercicio_08 {
         }
         Arrays.sort(vetor);
         // Busca Binaria
-        //Nesse teste, vamos grerar numeros açeatorios e pesquisar no vetor
+        //Nesse teste, vamos grerar numeros aleatorios e pesquisar no vetor
         //Serão realizadas 100 buscas, medido o tempo de cada uma e a quantidade
         // de comparacoes realizadas
         
@@ -29,7 +26,6 @@ public class Exercicio_08 {
                 if(numero < vetor[pivo]){
                    ultimo = pivo-1; 
                 }else{
-                    
                     if(numero > vetor[pivo]);
                         primeiro = pivo +1;
                     }
