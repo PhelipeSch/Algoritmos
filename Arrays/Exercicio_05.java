@@ -1,4 +1,4 @@
-public class Exercicio05 {
+public class Exercicio_05 {
     public static void main(String[] args) {
         
         int numeros [] = new int [100_000]; 
