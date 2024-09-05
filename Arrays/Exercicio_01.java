@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exercicio01 {
+public class Exercicio_01 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         
