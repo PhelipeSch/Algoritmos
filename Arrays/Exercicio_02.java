@@ -1,4 +1,4 @@
-public class Exercicio02 {
+public class Exercicio_02 {
     public static void main(String[] args) {
         /*Criação automática de Array
         
