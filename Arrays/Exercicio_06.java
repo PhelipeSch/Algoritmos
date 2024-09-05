@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class Exercicio06 {
+public class Exercicio_06 {
     public static void main(String[] args) {
         
         int numeros [] = new int [100_000]; 
