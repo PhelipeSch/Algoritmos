@@ -1,0 +1,27 @@
+Concluindo essa APNP essa é a parte da experiência/relfexão da atividade
+1º Complexidade dos algoritmos:
+    Em geral os algoritmos não são tão complicados quanto parecem, eles acabam sendo mais "difíceis" pelo fato de exigirem um conhecimento maior
+sobre funções e laços de repetição mas nada além do que já haviamos aprendido em sala.
+2º Eficiência deles:
+- Vetor ordenado:
+Quando o vetor está ordenado sem sombra de dúvidas MergeSort é o mais eficiente, pois para um array de 50 elementos ele levou mais de 1000 comparações
+a menos que o Quick e BubbleSort pois ele adota uma estratégia de dividir para conquistar, quando se fala de trocas Bubble e Merge levam vatagem em 
+relação ao Quick pois eles fazem 0 trocas e o quick fez 157 trocas e em questão de tempo o Bubble levou quase metade do tempo que o Merge que também levou quase 
+metade do tempo do Quick. Entretanto o Bubble levou essas vantagens pelo fato de serem poucos valores porque se fosse muitos mais a vantagem do Merge
+seria enorme.
+- Vetor desordenado:
+Quando o vetor está desordenado também o MergeSort é o mais eficiente, pois para um array de 50 elementos ele levou mais de 1000 comparações
+a menos que o Quick e BubbleSort, quando se fala de trocas Merge dominou com vantagem a liderança pois Quick e Bubble fizeram mais 1000 trocas 
+quer o Merge e em questão de tempo o Merge também saiu com uma boa folga pois ele fez em quase metade do tempo. Portanto como já foi comentado no item acima o Merge provou sua
+eficiência em relação aos outros e ainda sim com poucos itens.
+- Vetor em ordem aleatória:
+Quando o vetor está desorganizado também o MergeSort é o mais eficiente, pois para um array de 50 elementos ele garantiu uma folga em relação aos outros, 
+quando se fala de trocas Merge também é mais vantajoso nesse caso pois ele fez a metade das trocas que os outros e em questão de tempo o Quick levou vantagem
+pelo fato de serem poucos itens.
+3ºQuando usar eles:
+- Bubble:
+Dados quase ordenados e sistemas pequenos.
+- Quick:
+Em grandes sistemas e quando não se tem memória ou se precisa de estabilidade.
+- Merge:
+Grandes sistemas e também quando se tem bastante memória.
